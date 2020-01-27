@@ -8,7 +8,6 @@ Up to 27 January, since there are over 3000 confirmed 2019 n-CoV cases globally 
 
 We consider a “closed population” scenario with no births, deaths, or migrations, and assume the mixing is homogeneous.
 
-
-## Data
+## Data & Visualization
 
 ## Results
