@@ -6,7 +6,7 @@ The epidemic model is a way of simplifications of the reality, which helps refin
 
 Up to 27 January, since there are over 3000 confirmed 2019 n-CoV cases globally with growing cure rate, we choose the SIR (Susceptible - Infectious - Recovered) model to apply in the prediction model.
 
-We consider a “closed population” scenario with no births, deaths, or migrations, and assume the mixing is homogeneous.
+![SIR Model](https://institutefordiseasemodeling.github.io/Documentation/general/_images/SIR-SIRS.png)
 
 ## Data & Visualization
 
