@@ -10,5 +10,7 @@ Up to 27 January, since there are over 3000 confirmed 2019 n-CoV cases globally 
 </p>
 
 ## Data & Visualization
+Contribution: API provided by CxZMoE: https://github.com/CxZMoE/nCoV
+
 
 ## Results
