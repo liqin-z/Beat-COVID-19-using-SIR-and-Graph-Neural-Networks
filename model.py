@@ -50,7 +50,7 @@ def map_getmap() -> Map:
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
             visualmap_opts=opts.VisualMapOpts(max_=100, is_piecewise=True),
-            title_opts=opts.TitleOpts(title="2019-nCoV Heat Map(China)"),
+            title_opts=opts.TitleOpts(title="2019-nCoV Geo Map(China)"),
         )
     )
     make_snapshot(snapshot, c.render(), "map.png")
