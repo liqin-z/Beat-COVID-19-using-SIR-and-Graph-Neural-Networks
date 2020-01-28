@@ -9,7 +9,7 @@ versionInfoPython = json.loads(versionInfo)
 # print (versionInfoPython)
 
 dataList = versionInfoPython.get('data')
-# print(dataList)
+print(dataList)
 
 with open('data.json', 'w') as outfile:
     json.dump(dataList, outfile, ensure_ascii=False)
