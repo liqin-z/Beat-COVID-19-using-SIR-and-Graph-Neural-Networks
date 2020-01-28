@@ -15,7 +15,7 @@ Contribution: API provided by CxZMoE: https://github.com/CxZMoE/nCoV
 Geographical distribution of 2019-nCoV in China for the data up to 26 January.
 
 <p align="center">
-  <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/map.png" alt="Geo Map"/>
+  <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/geomap.png" alt="Geo Map"/>
 </p>
 
 <p align="center">
