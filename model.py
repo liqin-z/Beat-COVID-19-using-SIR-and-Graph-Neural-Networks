@@ -1,6 +1,6 @@
 import json
 
-filename = 'prettydata.json'
+filename = 'data/prettydata.json'
 with open(filename) as f:
     pop_data = json.load(f)
     allcases = []
@@ -32,7 +32,7 @@ def geo_heatmap() -> Geo:
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
             visualmap_opts=opts.VisualMapOpts(),
-            title_opts=opts.TitleOpts(title="Distribution of 2019-nCoV in China"),
+            title_opts=opts.TitleOpts(title="2019-nCoV Heat Map(China)"),
         )
     )
     make_snapshot(snapshot, c.render(), "geo.png")
