@@ -28,11 +28,11 @@ def geo_getmap() -> Geo:
         .add(
             "Confirmed Cases",
             allcases,
-            # type_=ChartType.HEATMAP,
+            type_=ChartType.HEATMAP,
         )
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
         .set_global_opts(
-            visualmap_opts=opts.VisualMapOpts(max_=100, is_piecewise=True),
+            visualmap_opts=opts.VisualMapOpts(max_=50, is_piecewise=True),
             title_opts=opts.TitleOpts(title="2019-nCoV Heat Map(China)"),
         )
     )
@@ -56,5 +56,5 @@ def map_getmap() -> Map:
     make_snapshot(snapshot, c.render(), "map.png")
 
 if __name__ == '__main__':
-    # geo_getmap()
-    map_getmap()
+    geo_getmap()
+    # map_getmap()
