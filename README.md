@@ -12,7 +12,7 @@ Up to 27 January, since there are over 3000 confirmed 2019 n-CoV cases globally 
 ## Data & Visualization
 Contribution: API provided by CxZMoE: https://github.com/CxZMoE/nCoV
 
-Geographical distribution of 2019-nCoV in China for the data up to 26 January.
+Geographical distribution of 2019-nCoV in China for the data up to 26 January. (Wuhan province has over 1423 confirmed cases by 27 January, for better overall visualization we leave it blank for now.)
 
 <p align="center">
   <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/geomap.png" alt="Geo Map"/>
