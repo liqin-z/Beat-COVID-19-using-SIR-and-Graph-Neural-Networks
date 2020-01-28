@@ -19,7 +19,7 @@ Geographical distribution of 2019-nCoV in China for the data up to 26 January.
 </p>
 
 <p align="center">
-  <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/geo.png" alt="Heat Map"/>
+  <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/heatmap.png" alt="Heat Map"/>
 </p>
 
 ## Results
