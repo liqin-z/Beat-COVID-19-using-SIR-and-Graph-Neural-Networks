@@ -36,7 +36,7 @@ def geo_getmap() -> Geo:
             title_opts=opts.TitleOpts(title="2019-nCoV Heat Map(China)"),
         )
     )
-    make_snapshot(snapshot, c.render(), "geo.png")
+    make_snapshot(snapshot, c.render(), "heatmap.png")
 
 def map_getmap() -> Map:
     c = (
@@ -53,8 +53,8 @@ def map_getmap() -> Map:
             title_opts=opts.TitleOpts(title="2019-nCoV Geo Map(China)"),
         )
     )
-    make_snapshot(snapshot, c.render(), "map.png")
+    make_snapshot(snapshot, c.render(), "geomap.png")
 
 if __name__ == '__main__':
-    geo_getmap()
-    # map_getmap()
+    # geo_getmap()
+    map_getmap()
