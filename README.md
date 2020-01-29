@@ -21,7 +21,7 @@ Up to 27 January, since there are over 3000 confirmed 2019 n-CoV cases globally 
 </p>
 
 <p align="center">
-  <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/heatmap.png" alt="Heat Map"/>
+  <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/tracemap.png" alt="Trace Map"/>
 </p>
 
 ## Results
