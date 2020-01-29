@@ -25,4 +25,8 @@ Up to 27 January, since there are over 3000 confirmed 2019 n-CoV cases globally 
 </p>
 
 ## Results
-We estimate that the basic reproduction number of the infection(R0) to be 0.98, given by the transmissoin rate and recover rate set to be 0.781 and 0.795 respectively. We predict that the epidemic in Wuhan will be substantially larger by 100 days from now (24354 infections).
+We estimate that the basic reproduction number of the infection(R0) to be 0.98, given by the transmissoin rate and recover rate set to be 0.781 and 0.795 respectively. We predict that the epidemic in Wuhan will be substantially larger by 100 days from now (24354 infections). The results is shown below.
+
+<p align="center">
+  <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/SIRplot.png" alt="SIRplot"/>
+</p>
