@@ -25,3 +25,4 @@ Up to 27 January, since there are over 3000 confirmed 2019 n-CoV cases globally 
 </p>
 
 ## Results
+We estimate that the basic reproduction number of the infection(R0) to be 1, calculated by the transmissoin rate and recover rate to be 0.6. We predict that the epidemic in Wuhan will be substantially larger by 100 days from now (24354 infections).
