@@ -52,7 +52,7 @@ def geo_getmap() -> Geo:
             linestyle_opts=opts.LineStyleOpts(curve=0.2),
         )
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
-        .set_global_opts(title_opts=opts.TitleOpts(title="2019-nCoV Heat Map(China)"))
+        .set_global_opts(title_opts=opts.TitleOpts(title="2019-nCoV Trace Map(China)"))
     )
     make_snapshot(snapshot, c.render(), "tracemap.png")
 
