@@ -30,3 +30,6 @@ We estimate that the basic reproduction number of the infection(R0) to be 0.98, 
 <p align="center">
   <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/SIRplot.png" alt="SIRplot"/>
 </p>
+
+## Contribution
+[Siyin Ma](https://github.com/siyinm)
