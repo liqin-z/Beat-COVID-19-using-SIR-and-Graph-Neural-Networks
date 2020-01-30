@@ -1,7 +1,7 @@
 ## Load deSolve package
 library(deSolve)
 Total=1.4e9
-PERIOD=20
+PERIOD=19
 #c(beta = 1.06, gamma = 0.85)
 
 ## Create an SIR function
@@ -21,7 +21,7 @@ sir <- function(time, state, parameters) {
 ## Proportion in each compartment: Susceptible 0.999999, Infected 0.000001, Recovered 0
 init       <- c(S = 1-41/1400000000, I = 41/1400000000, R = 0.0)
 ## beta: infection parameter; gamma: recovery parameter
-parameters <- c(beta = 1.07, gamma = 0.85)
+parameters <- c(beta = 1.0, gamma = 0.785)
 ## Time frame
 times      <- seq(0, PERIOD, by = 1)
 ## Solve using ode (General Solver for Ordinary Differential Equations)
@@ -44,5 +44,5 @@ plot(x = times, y = out$R, type = 'l', xlab = "Time", ylab = "Susceptible and Re
 legend(0, 0.7, c("Susceptible", "Infected", "Recovered"), pch = 1, col = 2:4, bty = "n")
 
 final=out*Total
-final=cbind(Time=seq(1.13,1.33,0.01),final,Total=Total-final$S)
-final[seq(1,20,1),]
+final=cbind(Time=seq(1.13,1.32,0.01),final,Total=Total-final$S)
+final[seq(1,19,1),]

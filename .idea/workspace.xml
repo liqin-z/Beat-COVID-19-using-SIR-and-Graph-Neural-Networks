@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b15dc8fd-cf84-414a-8b86-7e3c0b8c756c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/render.html" beforeDir="false" afterPath="$PROJECT_DIR$/render.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracemap.png" beforeDir="false" afterPath="$PROJECT_DIR$/tracemap.png" afterDir="false" />
-    </list>
+    <list default="true" id="b15dc8fd-cf84-414a-8b86-7e3c0b8c756c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
