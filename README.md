@@ -14,7 +14,7 @@ Up to 27 January, since there are over 3000 confirmed 2019 n-CoV cases globally 
   - API provided by CxZMoE: https://github.com/CxZMoE/nCoV (1.26 and before)
   - API provided by TankNee: https://github.com/TankNee/nCoV-2019-DataAPI (1.29 and before)
 
-- Geographical distribution of 2019-nCoV in China for the data up to 26 January. (Wuhan province has over 1423 confirmed cases by 27 January, for better overall visualization we leave it blank for now.)
+- Geographical distribution of 2019-nCoV in China for the data up to 29 January.
 
 <p align="center">
   <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/geomap.png" alt="Geo Map"/>
@@ -25,7 +25,11 @@ Up to 27 January, since there are over 3000 confirmed 2019 n-CoV cases globally 
 </p>
 
 ## Results
-We estimate that the basic reproduction number of the infection(R0) to be 0.98, given by the transmissoin rate and recover rate set to be 0.781 and 0.795 respectively. We predict that the epidemic in Wuhan will be substantially larger by 100 days from now (24354 infections). The result is illustrated below.
+We estimate that the basic reproduction number of the infection(R0) to be 1.273, with the infection parameter and recover parameter set to be 1 and 0.785 respectively. Our prediction of the epidemic in Wuhan is illustrated in below.
+
+<p align="center">
+  <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/SIRresult.png" alt="SIRresult"/>
+</p>
 
 <p align="center">
   <img src="https://github.com/graveszhang/2019-nCoV-Prediction-Model/blob/master/SIRplot.png" alt="SIRplot"/>
