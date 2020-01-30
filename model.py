@@ -40,15 +40,16 @@ def geo_getmap() -> Geo:
             "",
             allcases,
             type_=ChartType.EFFECT_SCATTER,
+            # symbol_size="size",
             color="white",
         )
         .add(
             "",
             traces,
             type_=ChartType.LINES,
-            effect_opts=opts.EffectOpts(
-                symbol=SymbolType.ARROW, symbol_size=6, color="red"
-            ),
+            # effect_opts=opts.EffectOpts(
+            #     symbol=SymbolType.ARROW, symbol_size=6, color="red"
+            # ),
             linestyle_opts=opts.LineStyleOpts(curve=0.2),
         )
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
@@ -75,4 +76,4 @@ def map_getmap() -> Map:
 
 if __name__ == '__main__':
     geo_getmap()
-    map_getmap()
+    # map_getmap()
